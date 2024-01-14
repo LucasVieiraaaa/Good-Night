@@ -15,14 +15,14 @@ public class App {
       min = Integer.parseInt(values[1]);
 
              if (hour >= 0 && hour <6) {
-                resposta = "Boa Madrugada";
+                resposta = "Good Morning";
              }else if (hour >= 6 && hour <=12) {
-                resposta = "Bom Dia";
+                resposta = "Good Morning";
              }else if(hour >= 12 && hour <=18){
-                resposta = "Boa Tarde";
+                resposta = "Good Afternoon";
              }else if (hour >= 19 && hour <=23){
-                resposta = "Boa Noite";
+                resposta = "Good Night";
              }
-             System.out.println("Olá, tenha uma " + resposta);
+             System.out.println("Hello user, hope you have a " + resposta + "!");
     }
 }
